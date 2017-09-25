@@ -1,0 +1,3 @@
+author = Vodest
+version = 1.05
+displayName = Sigil of Discord

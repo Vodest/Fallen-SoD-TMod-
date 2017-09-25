@@ -1,0 +1,41 @@
+The 'Sigil of Discord' Mod is an implementation of various Items, Characters, Weapons, Armor etc. from the yet unreleased book/game 'Fallen - The Sigil of Discord'
+Patchnotes:
+/Changes:
+//Thanatos:
+- Renamed 'Cursed Sword 'Thanatos'' to 'Cursed Greatsword 'Thanatos''
+- Reduced the Damage from 95 down to 65
+- Reduced the Number of various Bars in the Recipe to make it cheaper and easier to create.
+
+//Kazar's Greathammer:
+- Renamed to 'Calamitous Greathammer'
+- Changed Item Description
+
+//50 Cal and 50 Cal Handcannon:
+- (Both) Recipe Removed
+- (Both) Made Non-Obtainable
+
+//Lilim's Scythe:
+- Changed name to 'Lunar Greatscythe'
+- Non-Obtainable
+- Recipe Removed
+
+//NPC's
+Both Knight Kazar and Iba won't spawn for now, I've decided to Remake their Textures and Rewrite their Dialoge.
+(Both can be Spawned through Cheating/Modding them ingame - I would not recommend it.)
+
+/Added:
+//Lead Greatsword:
+Damage: 32
+Size: 40x40
+Speed: Twice as slow as a Normal Broadsword (Lead)
+Animation: Default Swing
+Reusable/Looped: True/Yes
+Recipe: 30 Lead Bars - Any Anvil
+
+//Iron Greatsword:
+Damage: 27
+Size: 40x40
+Speed: Twice as slow as a Normal Broadsword (Iron), But slightly faster than the Lead Greatsword 
+Animation: Default Swing
+Reusable/Looped: True/Yes
+Recipe: 30 Iron Bars - Any Anvil

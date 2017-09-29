@@ -27,6 +27,11 @@ namespace FallenSoD.Items
             item.autoReuse = false;
         }
 
+        public override bool CanUseItem(Player player)
+        {
+            return Main.hardMode;
+        }
+
         public override void AddRecipes()
         {
             ModRecipe recipe = new ModRecipe(mod);

@@ -76,16 +76,22 @@ namespace FallenSoD.NPCs
             int Dryad = NPC.FindFirstNPC(NPCID.Dryad);
             if (Dryad >= 0 && Main.rand.Next(4) == 0)
             {
-                return "This " + Main.npc[Dryad].GivenName + " ... How do we get rid of her? She is awfully trying to cleanse this world of our Corruption!";
+                return "This " + Main.npc[Dryad].GivenName + " ... How do we get rid of her? She is trying to 'cleanse' me!";
             }
             switch (Main.rand.Next(4))
             {
                 case 0:
-                    return "This world seems too 'Happy'... Let's go and Corrupt EVERYTHING! *Laughs*";
+                    return "I hope Kazajirr isn't that much of a deal for you. He really tends to be hot-headded.";
                 case 1:
-                    return "Hmm... Oh! My bad. I was just thinking about how we could corrupt this world as fast as we can.";
+                    return "This world has to be corrupt for you to be the true Lord of the Calamity";
+                case 2:
+                    return "Ever heard of the 'Knights of the Calamity'? They are quite a Chaotic bunch. They will try to kill you even if you are their next Lord.";
+                case 3:
+                    return "You probably ask yourself 'Why am I now the next Lord of the Calamity?' Well, I don't know!";
+                case 4:
+                    return "... What? Why are you staring at me?!";
                 default:
-                    return "The Calamity chose you as the next Lord of Madness, I hope you will be my worthy Master.";
+                    return "Ah, Hello my Lord. Why I'm calling you my Lord? Well, I serve you dummy!";
             }
         }
 
@@ -107,8 +113,6 @@ namespace FallenSoD.NPCs
             shop.item[nextSlot].SetDefaults(ItemID.CorruptSeeds);
             nextSlot++;
             shop.item[nextSlot].SetDefaults(ItemID.CrimsonSeeds);
-            nextSlot++;
-            shop.item[nextSlot].SetDefaults(ItemID.Muramasa);
             nextSlot++;
         }
         public override void TownNPCAttackStrength(ref int damage, ref float knockback)

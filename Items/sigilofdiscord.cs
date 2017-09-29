@@ -25,8 +25,6 @@ namespace FallenSoD.Items
 			item.rare = 5;
 			item.UseSound = SoundID.Item1;
 			item.autoReuse = true;
-            item.shoot = mod.ProjectileType("SparklingBall");
-            item.shootSpeed = 16f;
         }
 
 		public override void AddRecipes()
@@ -36,8 +34,8 @@ namespace FallenSoD.Items
 			recipe.AddIngredient(ItemID.IronBar, 15);
 			recipe.anyIronBar = true;
 			recipe.AddIngredient(ItemID.SilverBar, 5);
-			recipe.AddIngredient(ItemID.Muramasa, 1);
-			recipe.AddTile(TileID.Anvils);
+            recipe.AddIngredient(null, "RegretLeadGreatsword", 1);
+            recipe.AddTile(TileID.Anvils);
 			recipe.SetResult(this);
 			recipe.AddRecipe();
 		}

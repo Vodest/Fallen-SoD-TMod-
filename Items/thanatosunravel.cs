@@ -8,7 +8,7 @@ namespace FallenSoD.Items
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Thanatos Clamat");
+            DisplayName.SetDefault("Thanatum Clamatis");
             Tooltip.SetDefault("She has awoken.");
         }
         public override void SetDefaults()
@@ -45,7 +45,7 @@ namespace FallenSoD.Items
 			recipe.AddIngredient(ItemID.SoulofNight, 30);
 			recipe.AddIngredient(ItemID.SoulofFlight, 30);
 			recipe.AddIngredient(ItemID.LeadBar, 50);
-            recipe.AddIngredient(ItemID.DarkShard, 1);
+            recipe.AddIngredient(null, "DiscordShards", 60);
 			recipe.anyIronBar = true;
 			recipe.AddTile(TileID.DemonAltar);
 			recipe.SetResult(this);

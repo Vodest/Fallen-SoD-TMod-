@@ -13,16 +13,16 @@ namespace FallenSoD.Items
         }
         public override void SetDefaults()
         {
-            item.damage = 27;
+            item.damage = 18;
             item.melee = true;
             item.width = 40;
             item.height = 40;
             item.useTime = 35;
-            item.useAnimation = 20;
+            item.useAnimation = 35;
             item.useStyle = 1;
             item.knockBack = 10;
             item.value = 400;
-            item.rare = 3;
+            item.rare = 2;
             item.UseSound = SoundID.Item1;
             item.autoReuse = true;
         }

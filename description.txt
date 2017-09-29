@@ -1,41 +1,41 @@
 The 'Sigil of Discord' Mod is an implementation of various Items, Characters, Weapons, Armor etc. from the yet unreleased book/game 'Fallen - The Sigil of Discord'
-Patchnotes:
+Patchnotes - 1.1001
+
 /Changes:
+
 //Thanatos:
-- Renamed 'Cursed Sword 'Thanatos'' to 'Cursed Greatsword 'Thanatos''
-- Reduced the Damage from 95 down to 65
-- Reduced the Number of various Bars in the Recipe to make it cheaper and easier to create.
+-Retextured
+-Changed it's recipe to add a new Ingridient, Discord Shards and a new Weapon, instead of a Muramasa. (Ingridients do need the completion of the Dungeon/Defeat of Skeletron to be crafted!)
 
-//Kazar's Greathammer:
-- Renamed to 'Calamitous Greathammer'
-- Changed Item Description
-
-//50 Cal and 50 Cal Handcannon:
-- (Both) Recipe Removed
-- (Both) Made Non-Obtainable
-
-//Lilim's Scythe:
-- Changed name to 'Lunar Greatscythe'
-- Non-Obtainable
-- Recipe Removed
-
-//NPC's
-Both Knight Kazar and Iba won't spawn for now, I've decided to Remake their Textures and Rewrite their Dialoge.
-(Both can be Spawned through Cheating/Modding them ingame - I would not recommend it.)
-
-/Added:
 //Lead Greatsword:
-Damage: 32
-Size: 40x40
-Speed: Twice as slow as a Normal Broadsword (Lead)
-Animation: Default Swing
-Reusable/Looped: True/Yes
-Recipe: 30 Lead Bars - Any Anvil
+Changed Damage from 37 down to 22 due to it's early accessability.
+Changed it's speed to 'Extremely Slow'
 
 //Iron Greatsword:
-Damage: 27
-Size: 40x40
-Speed: Twice as slow as a Normal Broadsword (Iron), But slightly faster than the Lead Greatsword 
-Animation: Default Swing
-Reusable/Looped: True/Yes
-Recipe: 30 Iron Bars - Any Anvil
+Changed Damage from 24 to 18 due to it's early accessability.
+changed it's speed to 'Slow'
+
+//Thanatum Clamatis
+-Renamed
+-Retextured
+
+/Added:
+
+//'The Townsguard's Lead Greadsword'
+Damage: 30 (Subject to Change undoubtly)
+Speed:'Slow' (Slower as the Iron Greatsword, Faster than the normal Lead Greatsword.)
+Recipe: 30 Gold Bars, 30 Lead Bars, 30 Discord Shards.
+Crafted at an Anvil
+Textures are subjected to Change in the next patch.
+
+//Discord Shards
+Material Item for various 'Twisted' Items, Such as Thanatos or the "Townsguard's" Items.
+Recipe: 1 Suspicious looking Eye, 20 Bones, 30 Silk.
+Crafted at Demon Altars.
+
+
+
+
+
+
+https://github.com/Vodest/Fallen-SoD-TMod-
